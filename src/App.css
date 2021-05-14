@@ -1,0 +1,137 @@
+.App {
+  margin: 0;
+  padding: 0;
+}
+
+
+.spacer {
+  height: 4rem;
+}
+
+a {
+  color: white;
+}
+a:visited {
+  color: rgb(241, 241, 241);
+}
+a:hover {
+  color: rgb(65, 112, 46);
+}
+
+header { 
+  margin: 0; 
+
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  z-index: 2;
+  background-color: white;
+  width: 100vw;
+  color: rgb(57, 156, 57);
+}
+
+.arrows {
+  display: flex;
+  justify-content: center;
+}
+
+.bg {
+  z-index: -2;
+  position: absolute;
+  top: 0;
+  margin: 0;
+  object-fit: cover;
+}
+
+.projects {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ margin: 0 2rem;
+}
+
+.nav {
+  color: rgb(57, 156, 57);
+}
+.nav:hover {
+  color: rgb(45, 97, 45);
+  cursor: pointer;
+}
+.nav2 {
+  color: rgb(255, 255, 255);
+  animation: float 6s ease-in-out infinite;
+
+}
+.nav2:hover {
+  color: rgb(58, 149, 45);
+  cursor: pointer;
+}
+
+
+
+
+h1 {
+  font-size: 4vw;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin: auto;
+}
+
+
+
+.section {
+  width: fit-content;
+  margin: 2rem;
+  top: 5rem;
+  font-size: 2rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.break {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes float {
+	0% {
+	
+		transform: translatey(0px);
+	}
+	50% {
+		
+		transform: translatey(-20px);
+	}
+	100% {
+		
+		transform: translatey(0px);
+	}
+}
+ .end {
+display: flex;
+justify-content: space-evenly;
+padding-bottom: 3rem;
+ }
+
+@media (max-width: 900px) {
+  .section {
+    width: fit-content;
+    margin: 0 1rem;
+    top: 5rem;
+    font-size: 2rem;
+  }
+  .end {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 900px) {
+  .non-header {
+     padding: 0 10rem;
+  }
+  
+}

@@ -1,0 +1,40 @@
+.links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: auto 1rem;
+}
+
+.link {
+    padding: 0 1rem;
+    align-items:flex-end;
+    font-size: 1.5rem;
+}
+
+.title {
+    padding: 0 ;
+    margin: 1rem 2rem;
+}
+
+@media (max-width: 1500px) {
+    .links {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        padding: .5rem 1rem;
+    }
+    
+    .link {
+        padding: 0 0.5rem;
+        align-items:flex-end;
+        
+    }
+    
+    .title {
+        padding: 0;
+        margin: 1rem;
+        align-items: flex-end;
+    }
+    
+}
+
