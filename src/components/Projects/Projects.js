@@ -12,7 +12,7 @@ const Projects = (props) => {
             description={"The fast-paced driving survival mini-game."}
             gif={"/project-demo/GIF/runner.gif"}
             gitLink={"https://github.com/howardjake/runner-game"}
-            deployed={"https://howardjake.github.io/runner-game/"}
+            deployed={"https://howardjake.github.io/RUNNER-touch/"}
             timer={"ani-1 image"}
             />
             <Project 
