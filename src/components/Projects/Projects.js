@@ -48,7 +48,7 @@ const Projects = (props) => {
             description={"A new way to organize your inspiration. "}
             gif={"/project-demo/GIF/mood_bud.gif"}
             gitLink={"https://github.com/howardjake/mood_bud"}
-            deployed={"https://mood-bud-app.herokuapp.com/"}
+            deployed={"https://mood-bud-c0776dc73f60.herokuapp.com/home"}
             timer={"ani-5 image"}
             />
             </div>
