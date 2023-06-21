@@ -34,15 +34,6 @@ const Projects = (props) => {
             timer={"ani-2 image"}
             />   
             <Project 
-            img={'projects/Classroom.png'}
-            title={"Gradebook"}
-            description={"This single page app is designed for teachers to keep track of their stuents assignments. "}
-            gif={"/project-demo/GIF/gradebook.gif"}
-            gitLink={"https://github.com/howardjake/classroom-frontend"}
-            deployed={"https://gradebookapp.netlify.app/"}
-            timer={"ani-3 image"}
-            />  
-            <Project 
             img={'projects/Mood_bud.png'}
             title={"mood_bud"}
             description={"A new way to organize your inspiration. "}
