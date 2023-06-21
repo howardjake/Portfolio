@@ -11,12 +11,6 @@ const Summary = (props) => {
                 <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/jake-b-howard/">
                     <i className="fab fa-linkedin fa-5x social-icon"></i>
                 </a>
-                <a target="_blank" rel="noreferrer" href="https://twitter.com/how_ardson">
-                    <i className="fab fa-twitter fa-5x social-icon"></i>
-                </a>
-                <a target="_blank" rel="noreferrer" href="https://www.instagram.com/how.ardson/">
-                    <i className="fab fa-instagram fa-5x social-icon"></i>
-                </a>
         </div>
         </div>
     )

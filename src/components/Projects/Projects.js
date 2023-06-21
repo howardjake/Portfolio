@@ -16,6 +16,15 @@ const Projects = (props) => {
             timer={"ani-1 image"}
             />
             <Project 
+            img={'projects/Followup.png'}
+            title={"Followup"}
+            description={"A contact organization tool specially designed for freelance, job searching, and creative self-marketing. "}
+            gif={"/project-demo/GIF/followup.gif"}
+            gitLink={"https://github.com/howardjake/followup-"}
+            deployed={"https://followup-1.netlify.app/"}
+            timer={"ani-4 image"}
+            /> 
+            <Project 
             img={'projects/NYT.png'}
             title={"Unoffcial NYTBS Explorer"}
             description={"A basic web application where users can explore the New York Times Best Sellers lists, both current and archived."}
@@ -23,7 +32,7 @@ const Projects = (props) => {
             gitLink={"https://github.com/howardjake/NYT-BS-Explorer"}
             deployed={"https://nyt-bs-explorer.vercel.app/"}
             timer={"ani-2 image"}
-            />  
+            />   
             <Project 
             img={'projects/Classroom.png'}
             title={"Gradebook"}
@@ -32,15 +41,6 @@ const Projects = (props) => {
             gitLink={"https://github.com/howardjake/classroom-frontend"}
             deployed={"https://gradebookapp.netlify.app/"}
             timer={"ani-3 image"}
-            />  
-            <Project 
-            img={'projects/Followup.png'}
-            title={"Followup"}
-            description={"A contact organization tool specially designed for freelance, job searching, and creative self-marketing. "}
-            gif={"/project-demo/GIF/followup.gif"}
-            gitLink={"https://github.com/howardjake/followup-"}
-            deployed={"https://followup-1.netlify.app/"}
-            timer={"ani-4 image"}
             />  
             <Project 
             img={'projects/Mood_bud.png'}
